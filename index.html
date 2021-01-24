@@ -25,7 +25,7 @@
                     <input type="text" class="form-control" id="cityInput" aria-label="Recipient's username" aria-describedby="submitBtn">
                     <button class="btn btn-primary mx-2 my-2" id="submitBtn"><i class="fas fa-search"></i></button>
                 </div>  
-                <div>
+                <div id="historyList">
                     <!-- dynamically created buttons with previous searches in a stack -->
                 </div>          
             </div>
@@ -47,7 +47,48 @@
                     <!-- 5-day Forecast: -->
                     <h3>5-Day Forecast:</h3>
                     <!-- blue cards for each day side-by-side -->
-                    <div id="dayCards"></div>
+                    <div class="text-white row" id="dayCards">
+                        <div class="card" style="width:10rem;">
+                            <div class="card-body m-2 bg-primary">
+                                <h5 class = "card-title"></h5>
+                                <a id="weatherIcon"></a>
+                                <p class="card-text"></p>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                        <div class="card" style="width:10rem;">
+                            <div class="card-body m-2 bg-primary">
+                                <h5 class = "card-title"></h5>
+                                <a id="weatherIcon"></a>
+                                <p class="card-text"></p>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                        <div class="card" style="width:10rem;">
+                            <div class="card-body m-2 bg-primary">
+                                <h5 class = "card-title"></h5>
+                                <a id="weatherIcon"></a>
+                                <p class="card-text"></p>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                        <div class="card" style="width:10rem;">
+                            <div class="card-body m-2 bg-primary">
+                                <h5 class = "card-title"></h5>
+                                <a id="weatherIcon"></a>
+                                <p class="card-text"></p>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                        <div class="card" style="width:10rem;">
+                            <div class="card-body m-2 bg-primary">
+                                <h5 class = "card-title"></h5>
+                                <a id="weatherIcon"></a>
+                                <p class="card-text"></p>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
