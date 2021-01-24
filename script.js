@@ -125,7 +125,6 @@ function historyList () {
             existingList.shift();
     } localStorage.setItem('listedHistory', JSON.stringify(existingList));    
     }
-    displayHistory();
 }
     
 
